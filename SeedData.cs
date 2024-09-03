@@ -1,12 +1,12 @@
-﻿using System.Security.Claims;
-using IdentityModel;
-using IdentityServerAspNetIdentity.Data;
-using IdentityServerAspNetIdentity.Models;
+﻿using IdentityModel;
+using IdentityServer.Data;
+using IdentityServer.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using System.Security.Claims;
 
-namespace IdentityServerAspNetIdentity;
+namespace IdentityServer;
 
 public class SeedData
 {
